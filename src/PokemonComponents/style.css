@@ -60,6 +60,7 @@ text-align: center;
     /* box-shadow: 0 5px 5px rgba(0, 0, 0, 0.7); */
     padding: 0 1.5rem;
     display: flex;
+   
     align-items: center;
     justify-content: space-between;
     box-sizing: border-box;
@@ -96,6 +97,8 @@ text-align: center;
 .base-stat{
     margin-top: 2rem;
     text-align: left;
+    display: flex;
+    flex-direction: column;
 }
 .btn-group{
     display: flex;
@@ -286,7 +289,7 @@ text-align: center;
         padding-right:10% ;
     }
   }
-  @media only screen and (max-width: 421px) {
+  @media only screen and (max-width: 415px) {
     .left-content {
         justify-content: center;
     }
@@ -397,3 +400,41 @@ text-align: center;
   -webkit-user-select: none;
   touch-action: manipulation;
 }
+
+@media only screen and (max-width: 821px) {
+    .infocard{
+        width: 80%;
+    }
+   
+  }
+@media only screen and (max-width: 769px) {
+    .infocard{
+        width: 85%;
+    }
+  }
+@media only screen and (max-width: 769px) {
+    .infocard{
+        width: 100%;
+    }
+  }
+@media only screen and (max-width: 600px) {
+    .infocard{
+        width: 100%;
+    }
+    .popup1{
+        width: 90%;
+        left: 5%;
+    }
+ 
+  }
+@media only screen and (max-width: 416px) {
+   
+    .groupab{
+        display: none;
+    }
+    .infocard{
+        flex-direction: column;
+    }
+   
+ 
+  }
