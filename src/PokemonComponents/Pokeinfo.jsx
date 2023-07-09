@@ -153,7 +153,7 @@ const Pokeinfo = ({ data }) => {
   
   const message = async () => {
     try {
-      const res = await axios.post("https://pokeapi.co/api/v1/poke/pokedetails", {
+      const res = await axios.post("https://pokemonapp-fwmi.onrender.com/api/v1/poke/pokedetails", {
         id,
         email,
         PokeName,
