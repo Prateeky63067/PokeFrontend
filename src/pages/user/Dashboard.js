@@ -148,7 +148,7 @@ const Dashboard = () => {
                       <div className="mainClass">
                         {userData.map((user, index) => (
                           <div className="mypokocard" key={index}>
-                            <img className="imginfo" src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${user.id}.svg`} alt="" />
+                            <img className="imginfo2" src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${user.id}.svg`} alt="" />
                             
                             {/* <img src="/dummy.png" alt="" /> */}
                             <p className="pname">{user.PokeName}</p>
