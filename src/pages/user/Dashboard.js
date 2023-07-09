@@ -163,7 +163,7 @@ const Dashboard = () => {
                         ))}
                       </div>
                     ) : (
-                      <p>No users found</p>
+                      <p>No Pokemon Adopted by you</p>
                     )}
                   </div>
                 </div>
