@@ -184,7 +184,7 @@ const Pokeinfo = ({ data }) => {
           <div className="infocard">
           <div>
             <h1 className="itemhead">{data.name}</h1>
-            <img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${data.id}.svg`} alt="" />
+           <img className="imginfo" src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${data.id}.svg`} alt="" />
             {/* <img className="imginfo" src="dummy.png" alt="" /> */}
             <div className="abilities">
               {data.abilities.map(poke => (

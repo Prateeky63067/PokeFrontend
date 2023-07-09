@@ -77,7 +77,7 @@ const Card = ({ pokemon, loading, infoPokemon }) => {
                 <div className="imgBx">
                 
                   {/* <img src="dummy.png" /> */}
-                  <img src={item.sprites.front_default} alt="image not found" />
+                  <img className="imginfo" src={item.sprites.front_default} alt="image not found" />
                 </div>
                 <div className="contentBx">
                   <h3>
