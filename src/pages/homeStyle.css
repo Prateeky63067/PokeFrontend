@@ -1,46 +1,89 @@
-#hero-image {
+/* #hero-image {
     background: url('./pokemon.jpg') top center no-repeat;
+   
     height: 820px;
+} */
+body{
+    background-color: black!important;
+   
+
 }
 
 .hero-marketing-text {
-    max-width: 1200px;
-    margin: -30px auto 0;
-    position: absolute;
-    top: 40%;
-    left: 0;
-    right: 0;
-    padding: 0 20px;
+  max-width: 1200px;
+  margin: -30px auto 0;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  right: 0;
+  padding: 0 20px;
 }
 
 .hero-marketing-text h1 {
-    color: #eee;
-    font-size: 3.5em;
-    font-weight: 300;
-    margin: 0.5em 0;
+  /* color: #eee; */
+  color: #ffb320;
+  font-size: 3.5em;
+  font-weight: 300;
+  margin: 0.5em 0;
 }
 
 .hero-marketing-text span {
-    color: #FFB320;
+  color: #ff3220;
 }
 
 .hero-marketing-text h5 {
-    color: #eee;
-    font-size: 0.85em;
-    font-weight: 300;
-    max-width: 500px;
-    line-height: 2;
-    margin-bottom: 2.5em;
+  /* color: #eee; */
+  color: #ffb320;
+  font-size: 0.85em;
+  font-weight: bold;
+  max-width: 500px;
+  line-height: 2;
+  margin-bottom: 2.5em;
 }
 
 .hero-marketing-text button {
-    background-color: #FFB320;
-    color: #131313;
-    border-radius: 25px;
-    padding: 15px 25px;
-    font-size: 0.85em;
-    font-weight: 600;
-    border: none;
-    cursor: pointer;
+  background-color: #ffb320;
+  color: #131313;
+  border-radius: 25px;
+  padding: 15px 25px;
+  font-size: 0.85em;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
 }
 
+#myVideo {
+  position: fixed;
+  z-index: -1;
+}
+@media (min-aspect-ratio: 16/9) {
+  #myVideo {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-aspect-ratio: 16/9) {
+  #myVideo {
+    width: auto;
+    height: 100%;
+  }
+}
+@media (max-width: 767px) {
+  #myVideo {
+    display: none;
+    
+  }
+  #hero-image {
+    background: url("./pokemon.jpg") top center no-repeat;
+    height: 1000px;
+  }
+  .hero-marketing-text h1{
+    color: #eee;
+  }
+  .hero-marketing-text h5{
+    color: #eee;
+  }
+  .hero-marketing-text span{
+    color: #ffb320;
+  }
+}

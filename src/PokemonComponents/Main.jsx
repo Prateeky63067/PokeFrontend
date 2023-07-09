@@ -188,7 +188,7 @@ const Main = () => {
     console.log(pokeData)
   return (
     <>
-      <div className="container">
+      <div className="container2">
         <h1 className="heading">Available Pokemon</h1>
         <div className="left-content">
           <Card
